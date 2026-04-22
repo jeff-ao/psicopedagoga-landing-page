@@ -79,6 +79,7 @@ html {
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 body {
@@ -746,6 +747,7 @@ ul, ol {
 .servicos {
   padding: var(--space-4xl) 0 0;
   background: var(--color-bg);
+  overflow-x: hidden;
 }
 
 .servicos-header {
