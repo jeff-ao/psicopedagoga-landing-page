@@ -148,14 +148,34 @@
 
           <div class="hero-specialties">
             <div class="hero-specialty">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2z" />
-                <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2z" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2z"
+                />
+                <path
+                  d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2z"
+                />
               </svg>
               <span>Especialista em <strong>TEA</strong></span>
             </div>
             <div class="hero-specialty">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
                 <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
               </svg>
               <span>Formação em <strong>ABA</strong></span>
@@ -191,7 +211,7 @@
         <div class="hero-image">
           <div class="hero-image-wrapper">
             <img
-              src="assets/merciana.png"
+              src="assets/merciana-2.jpg"
               alt="Merciana — Psicopedagoga Clínica"
               loading="eager"
             />
@@ -462,9 +482,12 @@
           </p>
         </div>
 
-        <div class="servicos-grid">
-          <!-- Serviço 1 -->
-          <div class="servico-card animate-on-scroll delay-1">
+      </div>
+
+      <div class="servicos-list">
+        <!-- Serviço 1 -->
+        <div class="servico-row bg-primary animate-on-scroll slide-in-right delay-1">
+          <div class="container row-container">
             <div class="servico-icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -481,15 +504,19 @@
                 />
               </svg>
             </div>
-            <h3>Avaliação Psicopedagógica</h3>
-            <p>
-              Investigação detalhada das dificuldades de aprendizagem,
-              identificando potencialidades e necessidades de cada criança.
-            </p>
+            <div class="servico-text">
+              <h3>Avaliação Psicopedagógica</h3>
+              <p>
+                Investigação detalhada das dificuldades de aprendizagem,
+                identificando potencialidades e necessidades de cada criança.
+              </p>
+            </div>
           </div>
+        </div>
 
-          <!-- Serviço 2 -->
-          <div class="servico-card animate-on-scroll delay-2">
+        <!-- Serviço 2 -->
+        <div class="servico-row bg-secondary reverse animate-on-scroll slide-in-right delay-2">
+          <div class="container row-container">
             <div class="servico-icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -505,15 +532,19 @@
                 />
               </svg>
             </div>
-            <h3>Intervenção</h3>
-            <p>
-              Sessões terapêuticas focadas no desenvolvimento de habilidades
-              cognitivas, comportamentais e pedagógicas.
-            </p>
+            <div class="servico-text">
+              <h3>Intervenção</h3>
+              <p>
+                Sessões terapêuticas focadas no desenvolvimento de habilidades
+                cognitivas, comportamentais e pedagógicas.
+              </p>
+            </div>
           </div>
+        </div>
 
-          <!-- Serviço 3 -->
-          <div class="servico-card animate-on-scroll delay-3">
+        <!-- Serviço 3 -->
+        <div class="servico-row bg-accent animate-on-scroll slide-in-right delay-3">
+          <div class="container row-container">
             <div class="servico-icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -530,15 +561,19 @@
                 <path d="M16 3.13a4 4 0 0 1 0 7.75" />
               </svg>
             </div>
-            <h3>Orientação Familiar</h3>
-            <p>
-              Apoio e orientação para pais e escolas sobre como contribuir no
-              desenvolvimento da criança em casa e na sala de aula.
-            </p>
+            <div class="servico-text">
+              <h3>Orientação Familiar</h3>
+              <p>
+                Apoio e orientação para pais e escolas sobre como contribuir no
+                desenvolvimento da criança em casa e na sala de aula.
+              </p>
+            </div>
           </div>
+        </div>
 
-          <!-- Serviço 4 -->
-          <div class="servico-card animate-on-scroll delay-4">
+        <!-- Serviço 4 -->
+        <div class="servico-row bg-primary-bg reverse animate-on-scroll slide-in-right delay-4">
+          <div class="container row-container">
             <div class="servico-icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -557,11 +592,13 @@
                 />
               </svg>
             </div>
-            <h3>Atendimento TEA / ABA</h3>
-            <p>
-              Intervenção especializada no Transtorno do Espectro Autista
-              utilizando Análise do Comportamento Aplicada (ABA).
-            </p>
+            <div class="servico-text">
+              <h3>Atendimento TEA / ABA</h3>
+              <p>
+                Intervenção especializada no Transtorno do Espectro Autista
+                utilizando Análise do Comportamento Aplicada (ABA).
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -623,7 +660,7 @@
         <div class="sobre-image animate-on-scroll">
           <div class="sobre-image-wrapper">
             <img
-              src="assets/merciana.png"
+              src="assets/merciana-3.jpg"
               alt="Merciana — Psicopedagoga Clínica"
               loading="lazy"
             />
@@ -643,9 +680,10 @@
 
           <p class="sobre-bio">
             Sou pedagoga, psicopedagoga clínica e institucional, com
-            especialização em <strong>Transtorno do Espectro Autista (TEA)</strong>
-            e formação em <strong>Análise do Comportamento Aplicada (ABA)</strong>.
-            Com experiência como professora e gestora escolar, essa trajetória me
+            especialização em
+            <strong>Transtorno do Espectro Autista (TEA)</strong> e formação em
+            <strong>Análise do Comportamento Aplicada (ABA)</strong>. Com
+            experiência como professora e gestora escolar, essa trajetória me
             deu uma visão ampla do processo de ensino e da inclusão — unindo a
             prática clínica com o olhar educacional.
           </p>
@@ -653,14 +691,34 @@
           <!-- TEA & ABA Highlight Badges -->
           <div class="sobre-highlights">
             <div class="sobre-highlight-badge tea">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2z" />
-                <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2z" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2z"
+                />
+                <path
+                  d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2z"
+                />
               </svg>
               <span>Especialista em <strong>TEA</strong></span>
             </div>
             <div class="sobre-highlight-badge aba">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
                 <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
               </svg>
               <span>Formação em <strong>ABA</strong></span>
@@ -669,19 +727,59 @@
 
           <div class="sobre-credentials">
             <div class="credential">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
               Psicopedagoga Clínica
             </div>
             <div class="credential">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
               Neuropsicopedagoga
             </div>
             <div class="credential">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
               Psicologia Escolar
             </div>
             <div class="credential">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
               Pedagoga
             </div>
           </div>
@@ -880,8 +978,8 @@
               <div class="contato-item-text">
                 <h4>Endereço</h4>
                 <p>
-                  R. Bancário Francisco Mendes Sobreira, 51<br />Estados, João
-                  Pessoa - PB, 58031-270
+                  Brasil, João Pessoa, PB, Jardim oceania, Avenida Governador
+                  Argemiro De Figueiredo, 2369<br />Apt 402
                 </p>
               </div>
             </div>
@@ -952,7 +1050,9 @@
               </div>
               <div class="contato-item-text">
                 <h4>E-mail</h4>
-                <a href="mailto:merciana@gmail.com">merciana@gmail.com</a>
+                <a href="mailto:merciana.psiconeuroaba@gmail.com"
+                  >merciana.psiconeuroaba@gmail.com</a
+                >
               </div>
             </div>
 
@@ -982,7 +1082,7 @@
           <!-- Mapa -->
           <div class="contato-map animate-on-scroll delay-2">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.5!2d-34.87!3d-7.11!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNTMnMjQuMCJTIDM0wrA1MicyNC4wIlc!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+              src="https://maps.google.com/maps?q=Avenida%20Governador%20Argemiro%20De%20Figueiredo,%202369,%20Jardim%20oceania,%20Jo%C3%A3o%20Pessoa%20-%20PB,%20Brasil&t=&z=15&ie=UTF8&iwloc=&output=embed"
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
@@ -1038,7 +1138,7 @@
               </svg>
             </a>
             <a
-              href="mailto:merciana@gmail.com"
+              href="mailto:merciana.psiconeuroaba@gmail.com"
               aria-label="E-mail"
               id="footer-email"
             >
