@@ -1,5 +1,5 @@
 /* ============================================
-   ConectaMente — Landing Page Scripts
+   ConectaMentes — Landing Page Scripts
    ============================================ */
 
 document.addEventListener('DOMContentLoaded', () => {
